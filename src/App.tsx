@@ -69,7 +69,6 @@ function App() {
     <div className="App">
       <nav className="navbar">
         <div className="navbar-left">
-          <LanguageSwitcher className="navbar-button" />
           <MusicButton className="navbar-button" isPlaying={isPlaying} toggleMusic={() => setIsPlaying(!isPlaying)} />
         </div>
         <div className="navbar-right">

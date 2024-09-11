@@ -1,140 +1,112 @@
 {
-  "title": "Monay Wars",
-  "gameOver": "Game Over!",
-  "playerWins": "{{winner}} won the game!",
-  "noMoreCards": "No more cards",
-  "computerTurnButton": "Computer's turn - Click to continue",
-  "lastRound": "Last round:",
-  "property": "Property",
-  "player": "Player",
-  "computer": "Computer",
-  "drawPile": "Draw Pile: {{count}} cards",
-  "tieMessage": "It's a tie!",
-  "winMessage": "{{winner}} wins this round!",
-  "orientationWarning": "Please turn your device into landscape format to use the application.",
+  "title": "Lercher Battle",
+  "gameOver": "Spiel beendet!",
+  "playerWins": "{{winner}} hat das Spiel gewonnen!",
+  "noMoreCards": "Keine Karten mehr",
+  "computerTurnButton": "Computer ist am Zug - Klicken, um fortzufahren",
+  "lastRound": "Letzte Runde:",
+  "property": "Eigenschaft",
+  "player": "Spieler",
+  "computer": "Satoshi",
+  "drawPile": "Nachziehstapel: {{count}} Karten",
+  "tieMessage": "Es ist ein Unentschieden!",
+  "winMessage": "{{winner}} gewinnt diese Runde!",
+  "orientationWarning": "Bitte drehen Sie Ihr Gerät ins Querformat, um die Anwendung zu verwenden.",
   "eigenschaften": {
-    "eigenschaft1": "Since",
-    "eigenschaft2": "Scarcity",
-    "eigenschaft3": "Durability",
-    "eigenschaft4": "Divisibility",
-    "eigenschaft5": "Transportability"
+    "eigenschaft1": "Powermill",
+    "eigenschaft2": "Sauberkeit",
+    "eigenschaft3": "Fräserfahrung",
+    "eigenschaft4": "Spoertlichkeit",
+    "eigenschaft5": "Sitzfleisch"
   },
   "info": {
-    "aboutMe": "About Me",
-    "description": "If you like my work, I am very grateful for a few Bitcoin Lightning Sats. Also, check out my GitHub repos. Contact via Nostr. Need help with a project? Feel free to reach out.",
-    "widgetName": "Do you like the game?",
-    "widgetButtonText": "Thanks for the Sats",
-    "closeButton": "Close",
-    "github": "Visit my GitHub repositorie",
-    "nostr": "Contact me via Nostr",
+    "aboutMe": "Über mich",
+    "description": "Wenn Ihnen meine Arbeit gefällt, bin ich sehr dankbar für ein paar Bitcoin Lightning Sats. Schauen Sie sich auch meine GitHub-Repos an. Kontaktaufnahme über Nostr. Hilfe bei einem Projekt? Melden Sie sich gerne.",
+    "widgetName": "Gefällt Ihnen das Spiel?",
+    "widgetButtonText": "Danke für die Sats",
+    "closeButton": "Schließen",
+    "github": "Besuchen Sie mein GitHub-Repositorie",
+    "nostr": "Kontaktieren Sie mich über Nostr",
     "githubLink": "https://github.com/Walpurga03?tab=repositories",
     "nostrPubKey": "npub1hht9umpeet75w55uzs9lq6ksayfpcvl9lk64hye75j0yj4husq5ss8xsry",
-    "customizeMessage": "You can easily change the images and texts of Card Battle."
+    "customizeMessage": "Sie können die Bilder und Texte von Card Battle einfach ändern."
   },
   "cards": {
     "1": {
-      "name": "Bitcoin",
-      "textinfo": "Bitcoin is the first decentralized network that allows the transfer of value without a central authority. The immutable supply cap of 21 Million bitcoin makes it the scarcest money in the world. The protocol is open-source, based on a blockchain and peer-to-peer."
+      "name": "Achim",
+      "textinfo": "Meister des Werkzeugbaus den nur ein Meister beherrscht das Chaos."
     },
     "2": {
-      "name": "Ether",
-      "textinfo": "Ethereum is an open-source, distributed system which allows the creation, management, and execution of programs or contracts (smart contracts) in its own blockchain. One unit in the Ethereum Network is called one ether."
+      "name": "Alex",
+      "textinfo": "Der Bitcoin verrückte. Wenn er könnte würde er die Späne die er auf dem größten Maschinen macht für Bitcoins verkaufen."
     },
     "3": {
-      "name": "Euro",
-      "textinfo": "Der Euro ist die offizielle Währung der Europäischen Union. Er wird von 19 der 27 EU-Mitgliedstaaten sowie von mehreren Nichtmitgliedstaaten verwendet. Er wird mit EUR abgekürzt und durch das Symbol € dargestellt. Zudem ist der Euro die am zweithäufigsten gehandelte Währung der Welt."
+      "name": "Daniel",
+      "textinfo": "Der meister der Röders. Auf dieser Fräst er mit den Höchsten Drehzahlen sämtliche Elektroden."
     },
     "4": {
-      "name": "Monero",
-      "textinfo": "Monero ist eine dezentralisierte Kryptowährung. Sie verwendet ein öffentliches verteiltes Hauptbuch mit Technologien zur Verbesserung der Privatsphäre, die Transaktionen verschleiern, um Anonymität und Fungibilität zu erreichen."
+      "name": "Didi",
+      "textinfo": "Ein unkontrollierter Schreihals. Wenn er in der Firma ist, ist für Lärm gesorgt."
     },
     "5": {
-      "name": "Gold",
-      "textinfo": "Gold ist ein Edelmetall, das seit Tausenden von Jahren als Geld verwendet wird. Es wird aufgrund seiner Seltenheit, Schönheit und Vielseitigkeit hoch geschätzt und hat bei der Entwicklung moderner Währungssysteme eine wichtige Rolle gespielt. Es ist zudem korrosionsbeständig und färbt nicht ab."
+      "name": "Dustin",
+      "textinfo": "Der Spaßvogel des Teams. Mit ihm hat man immer was zum Lachen."
     },
     "6": {
-      "name": "Silber",
-      "textinfo": "Silber ist ein Metall, das schon seit Jahrtausenden als Zahlungsmittel verwendet wird. Es ist weniger wertvoll als Gold, wird aber aufgrund seiner Seltenheit und Schönheit dennoch sehr geschätzt. Silber wurde im Laufe der Geschichte in vielen Gesellschaften zur Herstellung von Münzen und anderen Zahlungsmitteln verwendet."
+      "name": "Emily",
+      "textinfo": "Unser jüngstes Teammitglied. Hochmotiviert und lernt jeden Tag was neues dazu."
     },
     "7": {
-      "name": "Kupfer",
-      "textinfo": "Kupfer wurde im Laufe der Geschichte immer wieder als Zahlungsmittel verwendet, bereits von alten Zivilisationen wie den Ägyptern und Römern. Seine Langlebigkeit und Knappheit machten es zu einem wertvollen Material für Münzen und andere Zahlungsmittel. Heutzutage findet Kupfer vor allem in der Industrie Verwendung"
+      "name": "Ensar",
+      "textinfo": "Ein Ehemaliger Mitarbeiter er war unser Kamikaze Fräser. Es gab nichts was er nicht laufen lies."
     },
     "8": {
-      "name": "Dollar",
-      "textinfo": "Der US-Dollar (USD) ist die offizielle Währung der Vereinigten Staaten von Amerika und gilt als die wichtigste Reservewährung der Welt. Die Ausgabe des US-Dollars erfolgt durch die Federal Reserve, die Zentralbank der Vereinigten Staaten."
+      "name": "Johanes",
+      "textinfo": "Der einzige der das Drehfräszentrum gemeister hat. Leider ist Drehen ≠ Fräsen."
     },
     "9": {
-      "name": "Yen",
-      "textinfo": "Der japanische Yen (JPY, ¥) ist die offizielle Währung Japans und wird von der Bank von Japan ausgegeben. Er ist nach dem US-Dollar und dem Euro die am dritthäufigsten gehandelte Währung auf dem Devisenmarkt."
+      "name": "Joker",
+      "textinfo": "Für sein Joker ähnliches Grinsen bekannt. Auf grund seiner Liebe zum Rum und den Dredlocks nennt man ihn auch klein Achim."
     },
     "10": {
-      "name": "Wampum",
-      "textinfo": "Wampum war eine von den Indianerstämmen Nordamerikas verwendete Währung, die aus Muscheln hergestellt wurde. Es diente dem Handel, Gewerbe und zeremoniellen Zwecken und wurde aufgrund seiner Seltenheit und Qualität geschätzt. Obwohl es schließlich durch die europäische Währung ersetzt wurde, behält es nach wie vor eine wichtige Bedeutung in der Kultur der amerikanischen Ureinwohner."
+      "name": "Karin",
+      "textinfo": "Unsere Pferdenarrin des Teams. Sie hält nicht nur den Stall sondern auch gerne ihren Arbeitsplatz sauber."
     },
     "11": {
-      "name": "Tabak",
-      "textinfo": "Natürliches Geld aus Tabak war in Amerika, Afrika, Indonesien und Melanesien ein gängiges Tauschmittel. Zigarettengeld entsteht oft in Zeiten, in denen traditionelle Währungen zusammenbrechen, wie es beispielsweise während der Hyperinflation in der Weimarer Republik der Fall war."
+      "name": "Kevin",
+      "textinfo": "Ein ehemaliger Mitarbeiter. Er war nicht gerade für seine Arbeitsmotivation bekannt. Derzeit Verschollen (keiner weiß was er gerade macht)."
     },
     "12": {
-      "name": "Zaehne",
-      "textinfo": "Diese Form des Geldes wurde aus den Zähnen von Säugetieren hergestellt und fand Verwendung in verschiedenen Teilen Amerikas, auf Neuguinea, den Fidschi-Inseln, den Salomon-Inseln, den Gilbert-Inseln und anderen Inseln des Südpazifiks .. Aufgrund ihrer Seltenheit bzw. der Schwierigkeit, sie zu beschaffen, waren sie als Zahlungsmittel geeignet."
+      "name": "Lukas",
+      "textinfo": "Ein ehemaliger Mitarbeiter. Hat die Lehre bei uns gemacht und war ein Herforagender Fräser. Hat nun eine Eigene Firma."
     },
     "13": {
-      "name": "Salz",
-      "textinfo": "Salzbarren, die sogenannten Amole, wurden in Äthiopien seit dem Altertum als Zahlungsmittel verwendet. Sie wurden als Ware verwendet und hatten gleichzeitig einen Geldwert. Auf einigen lokalen Märkten Afrikas und Äthiopiens sind sie noch heute in Gebrauch."
+      "name": "Martin",
+      "textinfo": "Ein ehemaliger Mitarbeiter. Hat alles sehr genau gefertig. Man kann aber auch manchmal zu genau sein."
     },
     "14": {
-      "name": "Renminbi",
-      "textinfo": "Der chinesische Renminbi (CNY, ¥), auch bekannt als chinesischer Yuan, ist die offizielle Währung der Volksrepublik China und wird von der People's Bank of China, der Zentralbank des Landes, ausgegeben."
+      "name": "Matthias",
+      "textinfo": "Er ist ein Ass im Programmieren egal ob an der Maschine oder im Cam. Abteilungsleiter Stellvertreter (deshalb sind die Haare auch nur Halbsolang)."
     },
     "15": {
-      "name": "Reichsmark",
-      "textinfo": "Die Reichsmark war von 1924 bis 1948 gesetzliches Zahlungsmittel im Deutschen Reich. Herausgegeben von der Reichsbank, der Zentralbank Deutschlands, ersetzte sie die Papiermark, die in den frühen 1920er Jahren erheblich an Wert verloren hatte."
-    },
-    "16": {
-      "name": "Rai-Steine",
-      "textinfo": "Rai-Steine sind große, runde Steinscheiben, die auf der Insel Yap im Pazifischen Ozean als Zahlungsmittel verwendet wurden. Sie wurden aus einer Art von Kalkstein hergestellt, der nur auf der Insel Palau vorkommt, die über 800 km von Yap entfernt liegt. Die Steine wurden in Steinbrüchen abgebaut und zu Scheiben unterschiedlicher Größe gehauen."
+      "name": "Sandra",
+      "textinfo": "Sandra, deren Sauberkeit im Werk glänzt wie ihre Fingernägel."
     },
     "17": {
-      "name": "Pfund",
-      "textinfo": "Das britische Pfund (GBP) ist die offizielle Währung des Vereinigten Königreichs und neun seiner angeschlossenen Territorien. Mit einem Alter von 1200 Jahren ist das Pfund Sterling die älteste Währung, die heute noch in Gebrauch ist. Das Pfund ist international anerkannt und spielt eine bedeutende Rolle im globalen Finanzwesen."
+      "name": "Sep",
+      "textinfo": "Zu ehren dieses Fräsers wurde die >Seppschicht< eingeführt. Diese Startet um 17uhr am Donnerstag und geht bis in die Frühen morgenstunden des Freitags."
     },
     "18": {
-      "name": "Schmuck",
-      "textinfo": "In den alten Zivilisationen wurden Edelmetalle wie Gold und Silber zu Schmuckstücken wie Ringen, Armbändern und Halsketten verarbeitet, die anschließend zum Erwerb von Waren und Dienstleistungen genutzt wurden. Schmuck hat als Geldform verschiedene Vorteile, darunter seinen subjektiven Wert, seine Langlebigkeit und seine Tragbarkeit."
+      "name": "Simon",
+      "textinfo": "Der blitzsaubere Kegelkönig, dessen Werkbank so glänzt, dass man darauf Kegeln könnte."
     },
     "19": {
-      "name": "Getreide",
-      "textinfo": "In den alten Zivilisationen war Getreide aufgrund seiner Rolle als Grundnahrungsmittel und seines relativ stabilen Wertes eine wertvolle Ware. Es wurde üblicherweise in großen Getreidespeichern gelagert und diente im Handel als Zahlungsmittel. Getreide konnte gegen andere Waren und Dienstleistungen eingetauscht oder zur Begleichung von Steuern oder Schulden verwendet werden."
+      "name": "Thomas",
+      "textinfo": "Unser Stundenbringer egal zu welcher Tages und Nachtzeit Thomas kommt immer in die Firma wenn die Röders steht."
     },
     "20": {
-      "name": "Perlen",
-      "textinfo": "Aggry-Perlen sind eine Art verzierter Glasperlen aus Ghana, die von den Westafrikanern als Schmuck für Halsketten, Armbänder und andere Schmuckstücke verwendet wurden. Die Perlen wurden im afrikanischen Handel als Tausch- und Zahlungsmittel verwendet."
-    },
-    "21": {
-      "name": "Florin",
-      "textinfo": "Der Florin ist eine historische Goldmünze, die in großen Teilen Europas verwendet wurde. Aufgrund ihres Goldgehalts war sie eine sehr geschätzte Münze. Die Münze wurde im Mittelalter in Florenz geprägt und wog etwa 3,5 Gramm."
-    },
-    "22": {
-      "name": "Denar",
-      "textinfo": "Der Denar war eine antike römische Münze, die im gesamten Römischen Reich weit verbreitet war. Er bestand aus Silber und wurde häufig im Handel und bei anderen finanziellen Transaktionen verwendet. Er war eine wichtige Währung in der antiken Welt und wurde weithin als Tauschmittel akzeptiert."
-    },
-    "23": {
-      "name": "Vieh",
-      "textinfo": "Natürliches Geld. “Pecunia” bedeutet auf Lateinisch Geld. Sein Ursprung “pecus” (Vieh) weist auf seine sehr lange Verwendung als Wertmaßstab hin. Es diente zur Entlohnung von Dienstleistungen, zur Begleichung von Schulden, Steuern, Bußgeldern und als Schlacht- oder Siegespreis."
-    },
-    "24": {
-      "name": "Muscheln",
-      "textinfo": "Kaurimuscheln wurden in vielen Teilen der Welt wegen ihrer Schönheit und Seltenheit als Zahlungsmittel verwendet, wurden aber nach und nach durch standardisierte Währungen ersetzt. Heute werden sie zu Dekorations- und Sammelzwecken verwendet."
-    },
-    "25": {
-      "name": "Kakao",
-      "textinfo": "Kakaobohnen waren in den alten mesoamerikanischen Zivilisationen wie den Maya und den Azteken als Zahlungsmittel weit verbreitet. Kakaobohnen galten aufgrund ihrer Seltenheit und der Schwierigkeit, sie zu beschaffen, als wertvoll und wurden häufig im Tausch gegen andere Waren und Dienstleistungen verwendet."
-    },
-    "26": {
-      "name": "Aggry-Perlen",
-      "textinfo": "Aggry-Perlen sind eine Art verzierter Glasperlen aus Ghana, die von den Westafrikanern als Schmuck für Halsketten, Armbänder und andere Schmuckstücke verwendet wurden. Die Perlen wurden im afrikanischen Handel als Tausch- und Zahlungsmittel verwendet."
+      "name": "Thomas",
+      "textinfo": "Unser Allround talent. Egal ob Fräsen, Programmieren, Werkzeugbestellungen Thomas ist unser Mann für alles."
     }
   }
 }
