@@ -34,25 +34,23 @@ const CardComponent: React.FC<CardComponentProps> = ({ cardId, onSelectProperty,
 
     return (
       <li
-        key={propertyKey}
         onClick={() => !isComputer && onSelectProperty && onSelectProperty(propertyKey)}
         style={{ cursor: isComputer ? 'default' : 'pointer', color: 'black', margin: '10px 0' }}
       >
         <span className="property-label">{propertyLabel}</span>
         <span className="property-value">{propertyValue}</span>
-        {propertyKey !== 'eigenschaft1' && (
-          <div className="rating-scale">
-            <div
-              className="rating-bar"
-              style={{
-                width: `${(propertyValue / 5) * 100}%`,
-                backgroundColor: propertyKey === 'eigenschaft2' ? '#E09594' :
+        <div className="rating-scale">
+          <div
+            className="rating-bar"
+            style={{
+              width: `${(propertyValue / 5) * 100}%`,
+              backgroundColor: propertyKey === 'eigenschaft1' ? '#7c431d' : // Farbe für die erste Eigenschaft
+                propertyKey === 'eigenschaft2' ? '#E09594' :
                   propertyKey === 'eigenschaft3' ? '#92B4DE' :
                     propertyKey === 'eigenschaft4' ? '#76C9B4' : '#E0C3B0',
-              }}
-            />
-          </div>
-        )}
+            }}
+          />
+        </div>
       </li>
     );
   };
