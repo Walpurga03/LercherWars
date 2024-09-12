@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next';
 import { useOrientation } from './hooks/useOrientation';
 import useGameInitialization from './hooks/useGameInitialization';
 import useGameState from './hooks/useGameState';
-import LanguageSwitcher from './components/LanguageSwitcher';
 import InfoPopup from './components/InfoPopup';
 import PlayerArea from './components/PlayerArea';
 import ComputerArea from './components/ComputerArea';
