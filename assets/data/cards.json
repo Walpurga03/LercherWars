@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Achim",
+    "image": "1.png",
+    "eigenschaften": {
+      "eigenschaft1": 5,
+      "eigenschaft2": 3,
+      "eigenschaft3": 5,
+      "eigenschaft4": 1,
+      "eigenschaft5": 5
+    }
+  },
+  {
+    "id": 2,
+    "name": "Alex",
+    "image": "2.png",
+    "eigenschaften": {
+      "eigenschaft1": 1,
+      "eigenschaft2": 2,
+      "eigenschaft3": 5,
+      "eigenschaft4": 2,
+      "eigenschaft5": 5
+    }
+  },
+  {
+    "id": 3,
+    "name": "Daniel",
+    "image": "3.png",
+    "eigenschaften": {
+      "eigenschaft1": 4,
+      "eigenschaft2": 3,
+      "eigenschaft3": 4,
+      "eigenschaft4": 4,
+      "eigenschaft5": 2
+    }
+  },
+  {
+    "id": 4,
+    "name": "Didi",
+    "image": "4.png",
+    "eigenschaften": {
+      "eigenschaft1": 5,
+      "eigenschaft2": 1,
+      "eigenschaft3": 4,
+      "eigenschaft4": 4,
+      "eigenschaft5": 4
+    }
+  },
+  {
+    "id": 5,
+    "name": "Dustin",
+    "image": "5.png",
+    "eigenschaften": {
+      "eigenschaft1": 1,
+      "eigenschaft2": 3,
+      "eigenschaft3": 2,
+      "eigenschaft4": 2,
+      "eigenschaft5": 1
+    }
+  },
+  {
+    "id": 6,
+    "name": "Emily",
+    "image": "6.png",
+    "eigenschaften": {
+      "eigenschaft1": 1,
+      "eigenschaft2": 4,
+      "eigenschaft3": 1,
+      "eigenschaft4": 3,
+      "eigenschaft5": 1
+    }
+  },
+  {
+    "id": 7,
+    "name": "Ensar",
+    "image": "7.png",
+    "eigenschaften": {
+      "eigenschaft1": 1,
+      "eigenschaft2": 3,
+      "eigenschaft3": 3,
+      "eigenschaft4": 3,
+      "eigenschaft5": 1
+    }
+  },
+  {
+    "id": 8,
+    "name": "Johanes",
+    "image": "8.png",
+    "eigenschaften": {
+      "eigenschaft1": 1,
+      "eigenschaft2": 4,
+      "eigenschaft3": 2,
+      "eigenschaft4": 3,
+      "eigenschaft5": 4
+    }
+  },
+  {
+    "id": 9,
+    "name": "Joker",
+    "image": "9.png",
+    "eigenschaften": {
+      "eigenschaft1": 2,
+      "eigenschaft2": 3,
+      "eigenschaft3": 2,
+      "eigenschaft4": 2,
+      "eigenschaft5": 1
+    }
+  },
+  {
+    "id": 10,
+    "name": "Karin",
+    "image": "10.png",
+    "eigenschaften": {
+      "eigenschaft1": 2,
+      "eigenschaft2": 5,
+      "eigenschaft3": 4,
+      "eigenschaft4": 3,
+      "eigenschaft5": 2
+    }
+  },
+  {
+    "id": 11,
+    "name": "Kevin",
+    "image": "11.png",
+    "eigenschaften": {
+      "eigenschaft1": 1,
+      "eigenschaft2": 3,
+      "eigenschaft3": 3,
+      "eigenschaft4": 2,
+      "eigenschaft5": 1
+    }
+  },
+  {
+    "id": 12,
+    "name": "Lukas",
+    "image": "12.png",
+    "eigenschaften": {
+      "eigenschaft1": 3,
+      "eigenschaft2": 4,
+      "eigenschaft3": 5,
+      "eigenschaft4": 4,
+      "eigenschaft5": 1
+    }
+  },
+  {
+    "id": 13,
+    "name": "Martin",
+    "image": "13.png",
+    "eigenschaften": {
+      "eigenschaft1": 1,
+      "eigenschaft2": 4,
+      "eigenschaft3": 3,
+      "eigenschaft4": 5,
+      "eigenschaft5": 1
+    }
+  },
+  {
+    "id": 14,
+    "name": "Matthias",
+    "image": "14.png",
+    "eigenschaften": {
+      "eigenschaft1": 5,
+      "eigenschaft2": 2,
+      "eigenschaft3": 4,
+      "eigenschaft4": 4,
+      "eigenschaft5": 4
+    }
+  },
+  {
+    "id": 15,
+    "name": "Peter",
+    "image": "15.png",
+    "eigenschaften": {
+      "eigenschaft1": 3,
+      "eigenschaft2": 3,
+      "eigenschaft3": 2,
+      "eigenschaft4": 2,
+      "eigenschaft5": 1
+    }
+  },
+  {
+    "id": 16,
+    "name": "Sandra",
+    "image": "16.png",
+    "eigenschaften": {
+      "eigenschaft1": 1,
+      "eigenschaft2": 4,
+      "eigenschaft3": 1,
+      "eigenschaft4": 3,
+      "eigenschaft5": 1
+    }
+  },
+  {
+    "id": 17,
+    "name": "Sep",
+    "image": "17.png",
+    "eigenschaften": {
+      "eigenschaft1": 3,
+      "eigenschaft2": 2,
+      "eigenschaft3": 5,
+      "eigenschaft4": 5,
+      "eigenschaft5": 5
+    }
+  },
+  {
+    "id": 18,
+    "name": "Simon",
+    "image": "18.png",
+    "eigenschaften": {
+      "eigenschaft1": 1,
+      "eigenschaft2": 5,
+      "eigenschaft3": 2,
+      "eigenschaft4": 4,
+      "eigenschaft5": 3
+    }
+  },
+  {
+    "id": 19,
+    "name": "Thomas",
+    "image": "19.png",
+    "eigenschaften": {
+      "eigenschaft1": 1,
+      "eigenschaft2": 3,
+      "eigenschaft3": 3,
+      "eigenschaft4": 3,
+      "eigenschaft5": 1
+    }
+  },
+  {
+    "id": 20,
+    "name": "Thomas",
+    "image": "20.png",
+    "eigenschaften": {
+      "eigenschaft1": 3,
+      "eigenschaft2": 3,
+      "eigenschaft3": 4,
+      "eigenschaft4": 3,
+      "eigenschaft5": 2
+    }
+  }
+]

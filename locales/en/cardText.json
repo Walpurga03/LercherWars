@@ -1,0 +1,112 @@
+{
+  "title": "Lercher Battle",
+  "gameOver": "Spiel beendet!",
+  "playerWins": "{{winner}} hat das Spiel gewonnen!",
+  "noMoreCards": "Keine Karten mehr",
+  "computerTurnButton": "Computer ist am Zug - Klicken, um fortzufahren",
+  "lastRound": "Letzte Runde:",
+  "property": "Eigenschaft",
+  "player": "Spieler",
+  "computer": "Satoshi",
+  "drawPile": "Nachziehstapel: {{count}} Karten",
+  "tieMessage": "Es ist ein Unentschieden!",
+  "winMessage": "{{winner}} gewinnt diese Runde!",
+  "orientationWarning": "Bitte drehen Sie Ihr Gerät ins Querformat, um die Anwendung zu verwenden.",
+  "eigenschaften": {
+    "eigenschaft1": "Powermill",
+    "eigenschaft2": "Sauberkeit",
+    "eigenschaft3": "Fräserfahrung",
+    "eigenschaft4": "Spoertlichkeit",
+    "eigenschaft5": "Sitzfleisch"
+  },
+  "info": {
+    "aboutMe": "Über mich",
+    "description": "Wenn Ihnen meine Arbeit gefällt, bin ich sehr dankbar für ein paar Bitcoin Lightning Sats. Schauen Sie sich auch meine GitHub-Repos an. Kontaktaufnahme über Nostr. Hilfe bei einem Projekt? Melden Sie sich gerne.",
+    "widgetName": "Gefällt Ihnen das Spiel?",
+    "widgetButtonText": "Danke für die Sats",
+    "closeButton": "Schließen",
+    "github": "Besuchen Sie mein GitHub-Repositorie",
+    "nostr": "Kontaktieren Sie mich über Nostr",
+    "githubLink": "https://github.com/Walpurga03?tab=repositories",
+    "nostrPubKey": "npub1hht9umpeet75w55uzs9lq6ksayfpcvl9lk64hye75j0yj4husq5ss8xsry",
+    "customizeMessage": "Sie können die Bilder und Texte von Card Battle einfach ändern."
+  },
+  "cards": {
+    "1": {
+      "name": "Achim",
+      "textinfo": "Meister des Werkzeugbaus den nur ein Meister beherrscht das Chaos."
+    },
+    "2": {
+      "name": "Alex",
+      "textinfo": "Der Bitcoin verrückte. Wenn er könnte würde er die Späne die er auf dem größten Maschinen macht für Bitcoins verkaufen."
+    },
+    "3": {
+      "name": "Daniel",
+      "textinfo": "Der meister der Röders. Auf dieser Fräst er mit den Höchsten Drehzahlen sämtliche Elektroden."
+    },
+    "4": {
+      "name": "Didi",
+      "textinfo": "Ein unkontrollierter Schreihals. Wenn er in der Firma ist, ist für Lärm gesorgt."
+    },
+    "5": {
+      "name": "Dustin",
+      "textinfo": "Der Spaßvogel des Teams. Mit ihm hat man immer was zum Lachen."
+    },
+    "6": {
+      "name": "Emily",
+      "textinfo": "Unser jüngstes Teammitglied. Hochmotiviert und lernt jeden Tag was neues dazu."
+    },
+    "7": {
+      "name": "Ensar",
+      "textinfo": "Ein Ehemaliger Mitarbeiter er war unser Kamikaze Fräser. Es gab nichts was er nicht laufen lies."
+    },
+    "8": {
+      "name": "Johanes",
+      "textinfo": "Der einzige der das Drehfräszentrum gemeister hat. Leider ist Drehen ≠ Fräsen."
+    },
+    "9": {
+      "name": "Joker",
+      "textinfo": "Für sein Joker ähnliches Grinsen bekannt. Auf grund seiner Liebe zum Rum und den Dredlocks nennt man ihn auch klein Achim."
+    },
+    "10": {
+      "name": "Karin",
+      "textinfo": "Unsere Pferdenarrin des Teams. Sie hält nicht nur den Stall sondern auch gerne ihren Arbeitsplatz sauber."
+    },
+    "11": {
+      "name": "Kevin",
+      "textinfo": "Ein ehemaliger Mitarbeiter. Er war nicht gerade für seine Arbeitsmotivation bekannt. Derzeit Verschollen (keiner weiß was er gerade macht)."
+    },
+    "12": {
+      "name": "Lukas",
+      "textinfo": "Ein ehemaliger Mitarbeiter. Hat die Lehre bei uns gemacht und war ein Herforagender Fräser. Hat nun eine Eigene Firma."
+    },
+    "13": {
+      "name": "Martin",
+      "textinfo": "Ein ehemaliger Mitarbeiter. Hat alles sehr genau gefertig. Man kann aber auch manchmal zu genau sein."
+    },
+    "14": {
+      "name": "Matthias",
+      "textinfo": "Er ist ein Ass im Programmieren egal ob an der Maschine oder im Cam. Abteilungsleiter Stellvertreter (deshalb sind die Haare auch nur Halbsolang)."
+    },
+    "15": {
+      "name": "Sandra",
+      "textinfo": "Sandra, deren Sauberkeit im Werk glänzt wie ihre Fingernägel."
+    },
+    "17": {
+      "name": "Sep",
+      "textinfo": "Zu ehren dieses Fräsers wurde die >Seppschicht< eingeführt. Diese Startet um 17uhr am Donnerstag und geht bis in die Frühen morgenstunden des Freitags."
+    },
+    "18": {
+      "name": "Simon",
+      "textinfo": "Der blitzsaubere Kegelkönig, dessen Werkbank so glänzt, dass man darauf Kegeln könnte."
+    },
+    "19": {
+      "name": "Thomas",
+      "textinfo": "Unser Stundenbringer egal zu welcher Tages und Nachtzeit Thomas kommt immer in die Firma wenn die Röders steht."
+    },
+    "20": {
+      "name": "Thomas",
+      "textinfo": "Unser Allround talent. Egal ob Fräsen, Programmieren, Werkzeugbestellungen Thomas ist unser Mann für alles."
+    }
+  }
+}
