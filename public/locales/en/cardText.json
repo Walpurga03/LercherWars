@@ -7,7 +7,7 @@
   "lastRound": "Letzte Runde:",
   "property": "Eigenschaft",
   "player": "Spieler",
-  "computer": "Satoshi",
+  "computer": "Dominik",
   "drawPile": "Nachziehstapel: {{count}} Karten",
   "tieMessage": "Es ist ein Unentschieden!",
   "winMessage": "{{winner}} gewinnt diese Runde!",
@@ -89,6 +89,10 @@
       "textinfo": "Er ist ein Ass im Programmieren egal ob an der Maschine oder im Cam. Abteilungsleiter Stellvertreter (deshalb sind die Haare auch nur Halbsolang)."
     },
     "15": {
+      "name": "Peter",
+      "textinfo": "Der Meister der 'Ein Kollege von mir...' Geschichten, die wahr sein mögen oder nicht, sind immer garantiert unterhaltsam."
+    },
+    "16": {
       "name": "Sandra",
       "textinfo": "Sandra, deren Sauberkeit im Werk glänzt wie ihre Fingernägel."
     },

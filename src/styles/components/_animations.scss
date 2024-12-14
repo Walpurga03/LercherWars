@@ -23,7 +23,7 @@ section .text{
     position: relative;
     font-size: 12vw;
     text-align: center;
-    color: $secondary-color;
+    color: $text-color;
     -webkit-box-reflect: below -0.46em linear-gradient(transparent, #0004);
 }
 section .text span{

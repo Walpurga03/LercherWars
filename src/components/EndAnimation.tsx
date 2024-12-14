@@ -2,14 +2,12 @@ import { useEffect, useRef } from 'react';
 import anime from 'animejs/lib/anime.es.js';
 import '../styles/main.scss';
 import cardsData from '../../public/assets/data/cards.json'; // Importiere die JSON-Datei
-import cardText from '../../public/locales/de/cardText.json'; // Importiere die cardText.json Datei
 
 const EndAnimation = ({ playerWon }: { playerWon: boolean }) => {
   const containerRef = useRef<HTMLDivElement | null>(null); // Ändere den Typ zu HTMLDivElement
   const message = playerWon ? "You Win!" : "You Lose!";
   const messageColor = playerWon ? "#fff" : "#fff";
   const backgroundColor = playerWon ? "#4CAF50" : "#e80202"; // Grün für Gewinn, Rot für Verlust
-  const title = cardText.title; // Lese den Titel aus der JSON-Datei
 
   useEffect(() => {
     const container = containerRef.current as HTMLDivElement; // Ändere den Typ zu HTMLDivElement
@@ -66,7 +64,7 @@ const EndAnimation = ({ playerWon }: { playerWon: boolean }) => {
     <div className='end-animation-container' ref={containerRef} style={{ background: backgroundColor }}>
       <div className='end-animation-content'>
         <h2 className='end-animation-message' style={{ color: messageColor }}>
-          <span>{title}<br /></span>{message}
+          <span>Money Wars<br /></span>{message}
         </h2>
         <button className='end-animation-button' onClick={() => window.location.reload()}>
           Play Again

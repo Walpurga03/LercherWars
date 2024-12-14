@@ -2,15 +2,17 @@ import { useTranslation } from 'react-i18next';
 import { useOrientation } from './hooks/useOrientation';
 import useGameInitialization from './hooks/useGameInitialization';
 import useGameState from './hooks/useGameState';
-import InfoPopup from './components/InfoPopup';
 import PlayerArea from './components/PlayerArea';
 import ComputerArea from './components/ComputerArea';
 import WinnerMessage from './components/WinnerMessage';
 import StartAnimation from './components/StartAnimation';
-import MusicButton from './components/MusicButton';
 import BackgroundMusic from './components/BackgroundMusic';
 import EndAnimation from './components/EndAnimation';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import Navbar from './components/Navbar';
+import LastRoundDetails from './components/LastRoundDetails';
+
+
 
 import './styles/main.scss';
 
@@ -43,6 +45,14 @@ function App() {
     handleComputerTurn,
   } = useGameState(playerCards, computerCards, setPlayerCards, setComputerCards);
 
+  useEffect(() => {
+    if (isComputerTurn) {
+      document.body.classList.add('computer-turn');
+    } else {
+      document.body.classList.remove('computer-turn');
+    }
+  }, [isComputerTurn]);
+
   if (!isAnimationComplete) {
     return <StartAnimation onAnimationEnd={() => setIsAnimationComplete(true)} />;
   }
@@ -56,7 +66,6 @@ function App() {
   }
 
   if (gameOver) {
-    console.log('Game over, rendering EndAnimation');
     return (
       <div className="App">
         <EndAnimation playerWon={winner === 'Player'} /> {/* Füge die EndAnimation-Komponente hinzu */}
@@ -66,14 +75,10 @@ function App() {
 
   return (
     <div className="App">
-      <nav className="navbar">
-        <div className="navbar-left">
-          <MusicButton className="navbar-button" isPlaying={isPlaying} toggleMusic={() => setIsPlaying(!isPlaying)} />
-        </div>
-        <div className="navbar-right">
-          <InfoPopup className="navbar-button" />
-        </div>
-      </nav>
+      <Navbar 
+        isPlaying={isPlaying} 
+        toggleMusic={() => setIsPlaying(!isPlaying)} 
+      />
 
       <BackgroundMusic src={musicSrc} playing={isPlaying} /> {/* Füge die BackgroundMusic-Komponente hinzu */}
 
@@ -96,33 +101,36 @@ function App() {
       <WinnerMessage
         winner={winner}
         showWinnerMessage={showWinnerMessage}
+        selectedProperty={lastRoundDetails.selectedProperty}
+        playerValue={lastRoundDetails.playerValue}
+        computerValue={lastRoundDetails.computerValue}
       />
 
-      {isComputerTurn && (
-        <button onClick={handleComputerTurn} className="button-highlight" style={{ marginTop: '20px' }}>
-          {t('computerTurnButton')}
-        </button>
-      )}
+       {/* Computer Turn Button mit conditional rendering */}
+    {isComputerTurn && (
+      <button 
+        onClick={handleComputerTurn} 
+        className="button-highlight"
+        aria-label={t('computerTurnButton', { computer: t('computer') })}
+      >
+        {t('computerTurnButton', { computer: t('computer') })}
+      </button>
+    )}
 
-      {lastRoundDetails.selectedProperty && (
-        <div className="last-round-details">
-          <h3>{t('lastRound')}</h3>
-          <p>
-            {lastRoundDetails.selectedProperty && t(`eigenschaften.${lastRoundDetails.selectedProperty}`)}
-            <br />
-            {t('player')}: {lastRoundDetails.playerValue}
-            <br />
-            {t('computer')}: {lastRoundDetails.computerValue}
-          </p>
-        </div>
-      )}
+    {lastRoundDetails.selectedProperty && (
+      <LastRoundDetails
+        selectedProperty={lastRoundDetails.selectedProperty}
+        playerValue={lastRoundDetails.playerValue}
+        computerValue={lastRoundDetails.computerValue}
+      />
+    )}
 
-      {drawPile.length > 0 && (
-        <div className="draw-pile">
-          <h3>{t('drawPile', { count: drawPile.length })}</h3>
-        </div>
-      )}
-    </div>
+    {drawPile.length > 0 && (
+      <div className="draw-pile">
+        <h3>{t('drawPile', { count: drawPile.length })}</h3>
+      </div>
+    )}
+  </div>
   );
 }
 

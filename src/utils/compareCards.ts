@@ -18,17 +18,12 @@ export function compareCards(
   playerCards: Card[],
   computerCards: Card[],
   drawPile: Card[],
-  propertiesWhereLowerIsBetter: PropertyKey[]
 ): CompareResult {
   const playerValue = currentPlayerCard.eigenschaften[property];
   const computerValue = currentComputerCard.eigenschaften[property];
 
   let playerWins: boolean;
-  if (propertiesWhereLowerIsBetter.includes(property)) {
-    playerWins = playerValue < computerValue;
-  } else {
-    playerWins = playerValue > computerValue;
-  }
+  playerWins = playerValue > computerValue;
 
   let winner: 'Player' | 'Computer' | 'Tie';
   let updatedPlayerCards = [...playerCards];
