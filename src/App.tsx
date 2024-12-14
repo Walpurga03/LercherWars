@@ -21,7 +21,7 @@ function App() {
   const isPortrait = useOrientation();
   const [isAnimationComplete, setIsAnimationComplete] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false); // Zustand für Musik
-  const musicSrc = 'https://github.com/Walpurga03/lercherWars/tree/main/public/audio/clip.mp3'; // Pfad zur Musikdatei
+  const musicSrc = 'https://walpurga03.github.io/lercherWars/audio/clip.mp3'; // Pfad zur Musikdatei
 
   const {
     playerCards,
