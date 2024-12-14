@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import LanguageSwitcher from './LanguageSwitcher';
-import InfoPopup from './InfoPopup';
+// import LanguageSwitcher from './LanguageSwitcher';
+// import InfoPopup from './InfoPopup';
 import MusicButton from './MusicButton';
 
 interface NavbarProps {
@@ -40,7 +40,7 @@ const Navbar: React.FC<NavbarProps> = ({ isPlaying, toggleMusic }) => {
           </button>
         )}
         <div className="navbar-left">
-          <LanguageSwitcher className="navbar-button" />
+          {/* <LanguageSwitcher className="navbar-button" /> */}
           <MusicButton 
             className="navbar-button" 
             isPlaying={isPlaying} 
