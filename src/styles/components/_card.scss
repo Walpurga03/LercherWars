@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .battlefield {
   display: flex;
   justify-content: center;
@@ -142,7 +144,7 @@
 
 body:not(.computer-turn) .player-card .property-label:hover,
 body:not(.computer-turn) .player-card .property-value:hover {
-  background-color: $secondary-color;
+  background-color: color.adjust($secondary-color, $lightness: 10%);
   color: $text-color; // Ändere die Farbe beim Hover
 }
 
@@ -209,7 +211,7 @@ body:not(.computer-turn) .player-card .property-value:focus {
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: lighten($secondary-color, 10%);
+    background-color: color.adjust($secondary-color, $lightness: 10%);
   }
 }
 
@@ -262,7 +264,7 @@ body:not(.computer-turn) .player-card .property-value:focus {
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: lighten($secondary-color, 10%);
+    background-color: color.adjust($secondary-color, $lightness: 10%);
   }
 }
 

@@ -47,7 +47,7 @@ const Navbar: React.FC<NavbarProps> = ({ isPlaying, toggleMusic }) => {
             toggleMusic={toggleMusic} 
           />
           {/* Info Button in die linke Gruppe verschoben */}
-          <InfoPopup className="navbar-button" />
+          {/* <InfoPopup className="navbar-button" /> */}
         </div>
         {/* Rechte Gruppe entfernt, da alle Buttons jetzt in der linken Gruppe sind */}
       </nav>

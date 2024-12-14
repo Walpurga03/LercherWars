@@ -64,7 +64,7 @@ const EndAnimation = ({ playerWon }: { playerWon: boolean }) => {
     <div className='end-animation-container' ref={containerRef} style={{ background: backgroundColor }}>
       <div className='end-animation-content'>
         <h2 className='end-animation-message' style={{ color: messageColor }}>
-          <span>Money Wars<br /></span>{message}
+          <span>Lercher Battle<br /></span>{message}
         </h2>
         <button className='end-animation-button' onClick={() => window.location.reload()}>
           Play Again
