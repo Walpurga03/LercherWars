@@ -67,7 +67,7 @@ const CardComponent: React.FC<CardComponentProps> = ({ cardId, onSelectProperty,
         transition={{ duration: 0.1 }}
         style={{ transformStyle: 'preserve-3d', perspective: '1000px' }}
       >
-        <div className="card card-front">
+        <div className={`card card-front ${isFlipped ? 'flipped' : ''}`}>
           <div className="card-header">
             <h2>{cardKey ? t(`cards.${cardKey}.name`) : 'Name nicht verfügbar'}</h2>
           </div>
@@ -90,7 +90,7 @@ const CardComponent: React.FC<CardComponentProps> = ({ cardId, onSelectProperty,
             {t('showDescription')}
           </button>
         </div>
-        <div className="card-back">
+        <div className="card-back-img">
           <img
             src={`${import.meta.env.BASE_URL}assets/images/backSite.png`}
             alt="Card Back"
