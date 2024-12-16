@@ -42,7 +42,7 @@
 .card-spieler,
 .card-computer {
   position: relative;
-  width: 280px;
+  width: 300px;
   height: 400px;
   perspective: 1000px;
   position: relative;
@@ -98,17 +98,11 @@
   backface-visibility: hidden;
 
   img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
     margin: 10px 0;
-  }
-
-  .properties {
-    width: 100%;
-    font-size: 1em;
-    padding: 8px;
   }
 }
 
@@ -225,7 +219,6 @@ body:not(.computer-turn) .player-card .property-value:focus {
   width: calc(100% + 40px);
   margin: 0 -20px;
   color: $text-color;
-  font-size: $font-size;
   line-height: 1.5;
   background-color: $secondary-color;
   box-sizing: border-box;
@@ -236,7 +229,7 @@ body:not(.computer-turn) .player-card .property-value:focus {
 .card-properties-list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: -20px;
   width: 100%;
 
   li {
@@ -253,13 +246,13 @@ body:not(.computer-turn) .player-card .property-value:focus {
 
 .description-button {
   width: calc(100% + 40px);
-  margin: 0 -20px;
+  margin: 35px;
   padding: 10px 20px;
   background-color: $secondary-color;
   color: $text-color;
   border: none;
   cursor: pointer;
-  font-size: $font-size;
+  font-size: 1.2em;
   transition: background-color 0.3s;
 
   &:hover {
@@ -321,21 +314,7 @@ body:not(.computer-turn) .player-card .property-value:focus {
 }
 
 @media (max-width: 800px) {
-  .card-computer {
-    width: 240px;
-    height: 360px;
-  }
-  
-  .card-spieler {
-    width: 230px !important;  // 10px kürzer
-    height: 360px;
-  }
-  
-  .card-front,
-  .card-back {
-    border-width: 10px;
-    padding: 12px;
-  }
+ 
 }
 
 @media (max-width: 700px) {
